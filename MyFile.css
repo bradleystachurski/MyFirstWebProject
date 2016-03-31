@@ -1,0 +1,95 @@
+html {
+    font-family: "proxima-nova";
+}
+
+.navbar {
+    background: rgba(0,0,0,0.0);
+    position: absolute;
+    height: 132px;
+}
+
+.navbar-brand {
+    width: 250px;
+    margin-top: -25px;
+    margin-left: -20px
+}
+
+.navbar-nav li a {
+    line-height: 100px;
+    color: white;
+}
+
+.navbar-nav li a:hover {
+    box-shadow: none;
+    color: darkgray;
+    background-color: transparent;
+}
+
+.center-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.intro strong {
+    display: block;
+    font-size: 70px;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    letter-spacing: 0.0571428571428571em;
+}
+
+small {
+    color: white;
+}
+
+.intro-container {
+    height: 800px;
+    position: relative;
+}
+
+.intro, .flatiron-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flatiron-wrapper {
+    background-image: url('https://lh3.googleusercontent.com/HmTfSdMle56HmHZ1zkdkFIk7D_PFOkhNJxq95qWf9A=w1437-h958-no');
+    -webkit-filter: brightness(50%);
+    background-position: 50%; 0;
+    background-size: cover;
+}
+
+.intro {
+    text-align: center;
+}
+
+.about {
+    height: 450px;
+}
+
+.about-me {
+    color: rgba(1,1,1,.6)
+}
+
+.col-md-4 img {
+    width: 100%;
+    heigth: auto;
+    text-align: center;
+}
+
+.social-media-links {
+    text-align: right;
+}
+
+.contact {
+    height: 500px;
+}
